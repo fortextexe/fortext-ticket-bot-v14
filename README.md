@@ -106,6 +106,6 @@ Komutlar sadece yetki sahip kişiler tarafından kullanılabilir.
 - Kod bütünlüğü korunur (`// fortext` tag'leri ile).
 - Sistem tamamen Slash komutlarla çalışır.
 
-İletişim: [fortextdev@gmail.com](mailto:fortextdev@gmail.com)
+İletişim: [için tıkla](mailto:fortextdev@gmail.com)
 
 *Made by fortext*
