@@ -1,4 +1,4 @@
-# Discord.js v14 Slashlı Ticket Bot - fortext-ticket-bot-v14
+# v14 Slashlı Ticket Bot - fortext-ticket-bot-v14
 
 
 
@@ -54,11 +54,11 @@ Aşağıdaki iki seçenekten birini kullan:
 
 ⦿ Terminal Üzerinden:
 
-```js node index.js```
+```node index.js```
 
 ⦿ BAT Dosyası İle: Proje dizinine başlat.bat adında bir dosya oluştur, içine şunu yaz:
 
-```js @echo off
+``@echo off
 title fortext-ticket-bot-v14
 echo.
 echo [BOT] Başlatılıyor...
@@ -72,15 +72,15 @@ if not exist node_modules (
 node index.js
 echo.
 echo Bot kapandı. Kapatmak için bir tuşa bas...
-pause >nul```
+pause >nul``
 
 # 4. Slash Komutlar
 
 Komutlar aşağıdaki gibidir:
 
-``/setup``     → Ticket sistemini sunucuda kurar
-``/başlat``    → Ticket panelini oluşturur
-``/settings``  → Ayarları düzenler (rol, kategori, log)
+```/setup```    → Ticket sistemini sunucuda kurar
+```/başlat```    → Ticket panelini oluşturur
+```/settings```  → Ayarları düzenler (rol, kategori, log)
 
 Komutlar sadece yetki sahip kişiler tarafından kullanılabilir.
 
