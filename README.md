@@ -9,8 +9,8 @@ Proje dizininde `settings.js` dosyasını aç ve aşağıdaki yapıya göre dold
 ```js
 module.exports = {
   bot: {
-    token: "YOUR_BOT_TOKEN",
-    clientId: "YOUR_CLIENT_ID"
+    token: "token",
+    clientId: "clıent"
   },
   emojis: {
     ticket: { id: "123456789012345678", name: "ticket" },
