@@ -1,9 +1,8 @@
-
 # v14 Slashlı Ticket Bot - fortext-ticket-bot-v14
 
-## Kurulum Rehberi
+# Kurulum Rehberi
 
-### 1. settings.js Ayarları
+# 1. settings.js Ayarları
 
 Proje dizininde `settings.js` dosyasını aç ve aşağıdaki yapıya göre doldur:
 
