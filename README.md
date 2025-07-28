@@ -1,11 +1,8 @@
-# Discord.js v14  
-Slashlı Ticket Bot - fortext-ticket-bot-v14
+# Discord.js v14 Slashlı Ticket Bot - fortext-ticket-bot-v14
 
-# 
 
-Kurulum Rehberi
 
-# 
+# Kurulum Rehberi
 
 1. settings.js Ayarları
 
@@ -45,14 +42,11 @@ module.exports = {
 }
 ```
 
-
 2. Gerekli Modüllerin Kurulumu
 
 Aşağıdaki komutu terminale yaz ve Enter'a bas:
 
 npm install
-
-
 
 3. Botu Başlatma
 
@@ -60,11 +54,11 @@ Aşağıdaki iki seçenekten birini kullan:
 
 ⦿ Terminal Üzerinden:
 
-node index.js
+``node index.js``
 
 ⦿ BAT Dosyası İle: Proje dizinine başlat.bat adında bir dosya oluştur, içine şunu yaz:
 
-@echo off
+``@echo off
 title fortext-ticket-bot-v14
 echo.
 echo [BOT] Başlatılıyor...
@@ -78,25 +72,21 @@ if not exist node_modules (
 node index.js
 echo.
 echo Bot kapandı. Kapatmak için bir tuşa bas...
-pause >nul
+pause >nul``
 
-
-
-4. Slash Komutlar
+# 4. Slash Komutlar
 
 Komutlar aşağıdaki gibidir:
 
-/setup     → Ticket sistemini sunucuda kurar
-/başlat    → Ticket panelini oluşturur
-/settings  → Ayarları düzenler (rol, kategori, log)
+``/setup``     → Ticket sistemini sunucuda kurar
+``/başlat``    → Ticket panelini oluşturur
+``/settings``  → Ayarları düzenler (rol, kategori, log)
 
-Komutlar sadece Administrator yetkisine sahip kişiler tarafından kullanılabilir.
+Komutlar sadece yetki sahip kişiler tarafından kullanılabilir.
 
+# 5. Yapı Hakkında
 
-
-5. Yapı Hakkında
-
-fortext-ticket-bot-v14/
+``fortext-ticket-bot-v14/
 │
 ├── index.js               → Ana bot dosyası
 ├── settings.js            → Ayar dosyası
@@ -105,11 +95,9 @@ fortext-ticket-bot-v14/
 └── commands/
     ├── setup.js
     ├── başlat.js
-    └── settings.js
+    └── settings.js``
 
-
-
-6. Açıklama
+# 6. Açıklama
 
 settings.js dosyası üzerinden tüm sistem kontrol edilir.
 
@@ -121,7 +109,4 @@ Kod bütünlüğü korunur (// fortext tag'leri ile).
 
 Sistem tamamen Slash komutlarla çalışır.
 
-Made by fortext
-
-
-
+*Made by fortext*
