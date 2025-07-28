@@ -1,0 +1,19 @@
+{
+  "name": "fortext-ticket-bot-v14",
+  "version": "1.0.0",
+  "description": "fortext - Gelişmiş Ticket Bot v14",
+  "main": "index.js",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "author": "fortext",
+  "dependencies": {
+    "discord.js": "^14.14.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  }
+}
