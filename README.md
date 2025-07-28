@@ -1,4 +1,4 @@
-```md
+
 # v14 Slashlı Ticket Bot - fortext-ticket-bot-v14
 
 ## Kurulum Rehberi
@@ -107,5 +107,4 @@ Komutlar sadece yetki sahip kişiler tarafından kullanılabilir.
 - Kod bütünlüğü korunur (`// fortext` tag'leri ile).
 - Sistem tamamen Slash komutlarla çalışır.
 
-**Made by fortext**
-```
+*Made by fortext*
