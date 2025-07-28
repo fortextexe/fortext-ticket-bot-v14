@@ -1,10 +1,9 @@
+```md
 # v14 Slashlı Ticket Bot - fortext-ticket-bot-v14
 
+## Kurulum Rehberi
 
-
-# Kurulum Rehberi
-
-1. settings.js Ayarları
+### 1. settings.js Ayarları
 
 Proje dizininde `settings.js` dosyasını aç ve aşağıdaki yapıya göre doldur:
 
@@ -42,23 +41,32 @@ module.exports = {
 }
 ```
 
-2. Gerekli Modüllerin Kurulumu
+---
 
-Aşağıdaki komutu terminale yaz ve Enter'a bas:
+### 2. Gerekli Modüllerin Kurulumu
 
+Terminale şu komutu yaz:
+
+```bash
 npm install
+```
 
-3. Botu Başlatma
+---
 
-Aşağıdaki iki seçenekten birini kullan:
+### 3. Botu Başlatma
 
-⦿ Terminal Üzerinden:
+**⦿ Terminal üzerinden:**
 
-```node index.js```
+```bash
+node index.js
+```
 
-⦿ BAT Dosyası İle: Proje dizinine başlat.bat adında bir dosya oluştur, içine şunu yaz:
+**⦿ BAT dosyası ile:**
 
-``@echo off
+Proje dizinine `başlat.bat` adında bir dosya oluştur ve içine şunu yaz:
+
+```bat
+@echo off
 title fortext-ticket-bot-v14
 echo.
 echo [BOT] Başlatılıyor...
@@ -72,41 +80,32 @@ if not exist node_modules (
 node index.js
 echo.
 echo Bot kapandı. Kapatmak için bir tuşa bas...
-pause >nul``
+pause >nul
+```
 
-# 4. Slash Komutlar
+---
+
+### 4. Slash Komutlar
 
 Komutlar aşağıdaki gibidir:
 
-```/setup```    → Ticket sistemini sunucuda kurar
-```/başlat```    → Ticket panelini oluşturur
-```/settings```  → Ayarları düzenler (rol, kategori, log)
+```bash
+/setup     → Ticket sistemini sunucuda kurar  
+/başlat    → Ticket panelini oluşturur  
+/settings  → Ayarları düzenler (rol, kategori, log)
+```
 
 Komutlar sadece yetki sahip kişiler tarafından kullanılabilir.
 
-# 5. Yapı Hakkında
+---
 
-``fortext-ticket-bot-v14/
-│
-├── index.js               → Ana bot dosyası
-├── settings.js            → Ayar dosyası
-├── başlat.bat             → Otomatik başlatma
-├── package.json           → Bağımlılıklar
-└── commands/
-    ├── setup.js
-    ├── başlat.js
-    └── settings.js``
+### 5. Açıklama
 
-# 6. Açıklama
+- `settings.js` dosyası üzerinden tüm sistem kontrol edilir.
+- Otomatik emoji yükleme vardır.
+- Ticket oluşturulurken kullanıcı, kategori ve log kayıtları yapılır.
+- Kod bütünlüğü korunur (`// fortext` tag'leri ile).
+- Sistem tamamen Slash komutlarla çalışır.
 
-settings.js dosyası üzerinden tüm sistem kontrol edilir.
-
-Otomatik emoji yükleme vardır.
-
-Ticket oluşturulurken kullanıcı, kategori ve log kayıtları yapılır.
-
-Kod bütünlüğü korunur (// fortext tag'leri ile).
-
-Sistem tamamen Slash komutlarla çalışır.
-
-*Made by fortext*
+**Made by fortext**
+```
