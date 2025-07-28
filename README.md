@@ -54,11 +54,11 @@ Aşağıdaki iki seçenekten birini kullan:
 
 ⦿ Terminal Üzerinden:
 
-``node index.js``
+```js node index.js```
 
 ⦿ BAT Dosyası İle: Proje dizinine başlat.bat adında bir dosya oluştur, içine şunu yaz:
 
-``@echo off
+```js @echo off
 title fortext-ticket-bot-v14
 echo.
 echo [BOT] Başlatılıyor...
@@ -72,7 +72,7 @@ if not exist node_modules (
 node index.js
 echo.
 echo Bot kapandı. Kapatmak için bir tuşa bas...
-pause >nul``
+pause >nul```
 
 # 4. Slash Komutlar
 
