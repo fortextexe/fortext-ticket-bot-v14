@@ -72,7 +72,6 @@ echo [fortext-ticket-bot-v14] Başlatılıyor...
 echo -------------------------------
 echo.
 
-REM Gerekli modüller yüklü değilse otomatik kur
 if not exist node_modules (
   echo Gerekli modüller yükleniyor...
   npm install
@@ -80,7 +79,6 @@ if not exist node_modules (
   echo.
 )
 
-REM Botu başlat
 node index.js
 
 echo.
